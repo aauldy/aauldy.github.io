@@ -1,0 +1,859 @@
+.is-white {
+    color: #ffffff !important;
+}
+
+.card-title {
+    padding-bottom: 10px;
+}
+
+.card-icon {
+    font-size: 55px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.has-black-bg {
+    background: #000000;
+}
+
+
+.card {
+  background-color: transparent;
+  box-shadow: none !important;
+  max-width: 100%;
+  position: relative;
+  padding: 26px;
+}
+
+.form-box {
+    padding: 40px !important;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+}
+
+.has-background {
+	background-color: #FBFBFD;
+}
+
+.contact-button {
+	background-color: #000000 !important;
+}
+
+
+
+#moustache-left {
+    animation: tache-left 4s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+  }
+
+@keyframes tache-left {
+    0% {transform: rotateZ(0deg);}
+    25% {transform: rotateZ(10deg);}
+    50% {transform: rotateZ(0deg);}
+    75% {transform: rotateZ(10deg);}
+    100% {transform: rotateZ(0deg);}
+}
+
+#moustache-right {
+    animation: tache-right 4s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes tache-right {
+    0% {transform: rotateZ(10deg);}
+    25% {transform: rotateZ(0deg);}
+    50% {transform: rotateZ(10deg);}
+    75% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(10deg);}
+}
+
+#bubble {
+    animation: bubble 10s linear infinite;
+    position: absolute;
+    transform-origin: 20% 30%;
+    transform-box: fill-box;
+}
+
+@keyframes bubble {
+
+    0% {opacity: 0; transform: translateY(150px) scale(0);}
+    25% {opacity: 1; transform: translateY(100px) scale(0.4);}
+    50% {opacity: 1; transform: translateY(50px) scale();}
+    75% {opacity: 1; transform: translateY(-50px) scale();}
+    100% {opacity: 0; transform: translateY(-100px) scale(1);}
+
+}
+
+#bubble-small {
+    animation: bubble-small 10s linear infinite;
+    position: absolute;
+    transform-origin: 20% 30%;
+    transform-box: fill-box;
+}
+
+@keyframes bubble-small {
+
+    0% {opacity: 0; transform: translateY(50px) scale(0);}
+    25% {opacity: 1; transform: translateY(10px) scale(0.3);}
+    50% {opacity: 1; transform: translateY(-20px) scale();}
+    75% {opacity: 1; transform: translateY(-50px) scale();}
+    100% {opacity: 0; transform: translateY(-100px) scale(1);}
+
+}
+
+#left-pinky {
+    animation: left-pinky 1s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes left-pinky {
+
+    0% {opacity: 1; transform: translateY(0px) scale(1);}
+    25% {opacity: 1; transform: translateY(-8px) scale(1);}
+    50% {opacity: 1; transform: translateY(0px) scale(1);}
+    75% {opacity: 1; transform: translateY(0px) scale(1);}
+    100% {opacity: 1; transform: translateY(0px) scale(1);}
+
+}
+
+#left-middle {
+    animation: left-middle 1s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes left-middle {
+
+    0% {opacity: 1; transform: translateY(0px) scale(1);}
+    25% {opacity: 1; transform: translateY(0px) scale(1);}
+    50% {opacity: 1; transform: translateY(-8px) scale(1);}
+    75% {opacity: 1; transform: translateY(0px) scale(1);}
+    100% {opacity: 1; transform: translateY(0px) scale(1);}
+
+}
+
+#left-pointer {
+    animation: left-pointer 1s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes left-pointer {
+
+    0% {opacity: 1; transform: translateY(0px) scale(1);}
+    25% {opacity: 1; transform: translateY(0px) scale(1);}
+    50% {opacity: 1; transform: translateY(0px) scale(1);}
+    75% {opacity: 1; transform: translateY(-8px) scale(1);}
+    100% {opacity: 1; transform: translateY(0px) scale(1);}
+
+}
+
+#right-pinky {
+    animation: right-pinky 1s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes right-pinky {
+
+    0% {opacity: 1; transform: translateY(0px) scale(1);}
+    25% {opacity: 1; transform: translateY(-8px) scale(1);}
+    50% {opacity: 1; transform: translateY(0px) scale(1);}
+    75% {opacity: 1; transform: translateY(0px) scale(1);}
+    100% {opacity: 1; transform: translateY(0px) scale(1);}
+
+}
+
+#right-middle {
+    animation: right-middle 1s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes right-middle {
+
+    0% {opacity: 1; transform: translateY(0px) scale(1);}
+    25% {opacity: 1; transform: translateY(0px) scale(1);}
+    50% {opacity: 1; transform: translateY(-8px) scale(1);}
+    75% {opacity: 1; transform: translateY(0px) scale(1);}
+    100% {opacity: 1; transform: translateY(0px) scale(1);}
+
+}
+
+#right-pointer {
+    animation: right-pointer 1s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes right-pointer {
+
+    0% {opacity: 1; transform: translateY(0px) scale(1);}
+    25% {opacity: 1; transform: translateY(0px) scale(1);}
+    50% {opacity: 1; transform: translateY(0px) scale(1);}
+    75% {opacity: 1; transform: translateY(-8px) scale(1);}
+    100% {opacity: 1; transform: translateY(0px) scale(1);}
+
+}
+
+#spark {
+    animation: spark 4s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    
+}
+
+@keyframes spark {
+
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    95% {opacity: 0;}
+    98% {opacity: 1;}
+    100% {opacity: 0;}
+
+}
+
+#left-eye {
+    animation: blink 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blink {
+
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(1, 1);}
+    50% {transform: scale(1, 1);}
+    79% {transform: scale(1, 1);}
+    81% {transform: scale(1, 0.1);}
+    83% {transform: scale(1, 1);}
+    100% {transform: scale(1, 1);}
+
+}
+
+#right-eye {
+    animation: blink2 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blink2 {
+
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(1, 1);}
+    50% {transform: scale(1, 1);}
+    79% {transform: scale(1, 1);}
+    81% {transform: scale(1, 0.1);}
+    83% {transform: scale(1, 1);}
+    100% {transform: scale(1, 1);}
+
+}
+
+.form .field-group {
+    margin: 1rem 0;
+}
+
+.button.is-rounded {
+    border-radius: 290486px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.form .text-input {
+    padding: 1rem;
+    border: none;
+    background: #f0f0f5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form .text-area, .form .text-input {
+    padding: 1rem;
+    border: none;
+    background: #f0f0f5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form .field-item {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+    .reverse-columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+  }
+
+
+.bucha {
+  z-index: -1000;
+  /* position: absolute; */
+  fill: black;
+  overflow: hidden;
+	width: 987px;
+	left: 75%;
+	top: 50%; 
+
+}
+
+#scoby {
+    animation: scoby 5s infinite ease-in-out reverse;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes scoby {
+
+    0% {opacity: 1; transform: translateY(120px) translateX(100px) scale(1);}
+    25% {opacity: 1; transform: translateY() translateX(100px) scale(0.5);}
+    50% {opacity: 1; transform: translateY(140px) translateX(100px) scale(01);}
+    75% {opacity: 1; transform: translateY() translateX(100px) scale(0.5);}
+    100% {opacity: 1; transform: translateY(120px) translateX(100px) scale(1);}
+
+}
+
+#bubble1 {
+    animation: bubble1 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes bubble1 {
+
+    0% {opacity: 0; transform: translateY(150px) scale(0);}
+    25% {opacity: 1; transform: translateY(100px) scale(0.4);}
+    50% {opacity: 1; transform: translateY(50px) scale();}
+    75% {opacity: 1; transform: translateY(-50px) scale();}
+    100% {opacity: 0; transform: translateY(-100px) scale(1);}
+
+}
+
+#bubble2 {
+    animation: bubble2 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes bubble2 {
+
+    0% {opacity: 0; transform: translateY(150px) scale(0);}
+    25% {opacity: 1; transform: translateY(100px) scale(0.4);}
+    50% {opacity: 1; transform: translateY(50px) scale();}
+    75% {opacity: 1; transform: translateY(-50px) scale();}
+    100% {opacity: 0; transform: translateY(-100px) scale(1);}
+
+}
+
+
+#bubble3 {
+    animation: bubble3 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+		animation-delay: 3s;
+}
+
+@keyframes bubble3 {
+
+    0% {opacity: 0; transform: translateY(150px) }
+    25% {opacity: 1; transform: translateY(100px) }
+    50% {opacity: 1; transform: translateY(50px) }
+    75% {opacity: 1; transform: translateY(-30px) }
+    100% {opacity: 0; transform: translateY(-60px) }
+
+}
+
+#bubble4 {
+    animation: bubble4 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+		animation-delay: 2s;
+}
+
+@keyframes bubble4 {
+
+    0% {opacity: 0; transform: translateY(150px) scale(0);}
+    25% {opacity: 1; transform: translateY(100px) scale(0.4);}
+    50% {opacity: 1; transform: translateY(50px) scale();}
+    75% {opacity: 1; transform: translateY(-30px) scale();}
+    100% {opacity: 0; transform: translateY(-50px) scale(1);}
+
+}
+
+#bubble4-2 {
+    animation: bubble4-2 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes bubble4-2 {
+
+    0% {opacity: 0; transform: translateY(150px) scale(0);}
+    25% {opacity: 1; transform: translateY(100px) scale(0.4);}
+    50% {opacity: 1; transform: translateY(50px) scale();}
+    75% {opacity: 1; transform: translateY(-50px) scale();}
+    100% {opacity: 0; transform: translateY(-100px) scale(1);}
+
+}
+
+#left-hand {
+    animation: left-hand-monster 3s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes left-hand-monster {
+
+    0% {opacity: 1; transform: translateX(0px) translateY(0px);}
+    25% {opacity: 1; transform: translateX(5px) translateY(10px);}
+    50% {opacity: 1; transform: translateX(0px) translateY(0px);}
+    75% {opacity: 1; transform: translateX(5px) translateY(10px);}
+    100% {opacity: 1; transform: translateX(00px) translateY(0px);}
+
+}
+
+#right-hand {
+    animation: right-hand-monster 3s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes right-hand-monster {
+
+    0% {opacity: 1; transform: translateX(0px) translateY(0px);}
+    25% {opacity: 1; transform: translateX(0px) translateY(-5px);}
+    50% {opacity: 1; transform: translateX(0px) translateY(0px);}
+    75% {opacity: 1; transform: translateX(0px) translateY(-5px);}
+    100% {opacity: 1; transform: translateX(0px) translateY(0px);}
+
+}
+
+#right-eye-monster {
+    animation: blink2 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blink2 {
+
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(1, 1);}
+    50% {transform: scale(1, 1);}
+    79% {transform: scale(1, 1);}
+    81% {transform: scale(1, 0.1);}
+    83% {transform: scale(1, 1);}
+    100% {transform: scale(1, 1);}
+
+}
+
+#left-eye-monster {
+    animation: blink2 8s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blink2 {
+
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(1, 1);}
+    50% {transform: scale(1, 1);}
+    79% {transform: scale(1, 1);}
+    81% {transform: scale(1, 0.1);}
+    83% {transform: scale(1, 1);}
+    100% {transform: scale(1, 1);}
+
+}
+
+#little-monster-eye-left {
+    animation: blink3 4s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blink3 {
+
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(1, 1);}
+    48% {transform: scale(1, 1);}
+    50% {transform: scale(1, 0.1);}
+    53% {transform: scale(1, 1);}
+    79% {transform: scale(1, 1);}
+    81% {transform: scale(1, 1);}
+    83% {transform: scale(1, 1);}
+    100% {transform: scale(1, 1);}
+
+}
+
+#little-monster-eye-right {
+    animation: blink3 4s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+#arm {
+    animation: arm 3s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes arm {
+
+    0% {transform: translateY(293px) translateX(463px)}
+    25% {transform: translateY(295px) translateX(463px)}
+    50% {transform: translateY(293px) translateX(463px)}
+    75% {transform: translateY(295px) translateX(463px)}
+    100% {transform: translateY(293px) translateX(463px)}
+
+}
+
+#dough-right-eye {
+    animation: blink4 4s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+#dough-left-eye {
+    animation: blink4 4s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+#choco-right-eye {
+    animation: blink4 6s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+#choco-left-eye {
+    animation: blink4 6s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blink4 {
+
+    0% {transform: scale(1, 1);}
+    25% {transform: scale(1, 1);}
+    50% {transform: scale(1, 1);}
+    79% {transform: scale(1, 1);}
+    81% {transform: scale(1, 0.1);}
+    83% {transform: scale(1, 1);}
+    100% {transform: scale(1, 1);}
+}
+
+#doughnut {
+    animation: roll-left-right 4s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes roll-left-right {
+
+    /* 0% {transform: rotate(25deg);}
+    20% {transform: rotate(-25deg);}
+    50% {transform: rotate(25deg);}
+    70% {transform: rotate(-25deg);}
+    100% {transform: rotate(25deg);} */
+}
+
+#left-hand-point {
+    animation: pointer-finger 3s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes pointer-finger {
+
+    0% {transform: translateY(0px) translateX(0px)}
+    25% {transform: translateY(0px) translateX(10px)}
+    50% {transform: translateY(0px) translateX(0px)}
+    75% {transform: translateY(0px) translateX(10px)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
+
+#face {
+    animation: face 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes face {
+
+    0% {opacity: 1; transform: scale(1, 1)}
+    10% {opacity: 1; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#eggplant {
+    animation: eggplant 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes eggplant {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 1; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#kiwi {
+    animation: kiwi 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes kiwi {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 1; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#blueberry {
+    animation: blueberry 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes blueberry {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 1; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#chess {
+    animation: chess 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes chess {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 1; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#love {
+    animation: love 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes love {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 1; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#gate {
+    animation: gate 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes gate {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 1; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#owl {
+    animation: owl 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes owl {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 1; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#accordion {
+    animation: accordion 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes accordion {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 1; transform: scale(1, 1) ;}
+    100% {opacity: 0; transform: scale(1, 1) ;}
+}
+
+#onsen {
+    animation: onsen 20s linear infinite;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes onsen {
+
+    0% {opacity: 0; transform: scale(1, 1) ;}
+    10% {opacity: 0; transform: scale(1, 1) ;}
+    20% {opacity: 0; transform: scale(1, 1) ;}
+    30% {opacity: 0; transform: scale(1, 1) ;}
+    40% {opacity: 0; transform: scale(1, 1);}
+    50% {opacity: 0; transform: scale(1, 1) ;}
+    60% {opacity: 0; transform: scale(1, 1) ;}
+    70% {opacity: 0; transform: scale(1, 1) ;}
+    80% {opacity: 0; transform: scale(1, 1) ;}
+    90% {opacity: 0; transform: scale(1, 1) ;}
+    100% {opacity: 1; transform: scale(1, 1) ;}
+}
+/*
+     FILE ARCHIVED ON 09:49:23 Jan 30, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:44:24 Feb 24, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 152.042
+  exclusion.robots: 0.196
+  exclusion.robots.policy: 0.187
+  cdx.remote: 0.066
+  esindex: 0.01
+  LoadShardBlock: 109.341 (3)
+  PetaboxLoader3.datanode: 119.45 (4)
+  PetaboxLoader3.resolve: 117.189 (2)
+  load_resource: 170.198
+*/
